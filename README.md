@@ -1,0 +1,3 @@
+ITOnlineLearning Holyland Website
+
+This is a simple website made following the ITOnlineLearning web development course. The website that the course makes is actually a yacht tour booking website, but you're allowed to choose a different topic, so I decided to make a website promoting a manga that I really enjoy called Holyland. This website provides a basic summary of the story and some characters, as well as reviews from others who have read it.
