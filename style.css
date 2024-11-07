@@ -1,0 +1,11 @@
+h1 {
+    font-size: 80px;
+    color: crimson;
+    font-family:'Courier New', Courier, monospace
+}
+
+#orangeparagraph {
+    font-size: 30px;
+    color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
