@@ -1,11 +1,59 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 h1 {
     font-size: 80px;
     color: crimson;
-    font-family:'Courier New', Courier, monospace
+    font-family: "Bebas Neue", sans-serif;
 }
 
 #orangeparagraph {
     font-size: 30px;
     color: darkorange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1000;
+    background-color: rgba(50, 50, 60, 0.95);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.52);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+    transition: color 0.3s;
+    border-bottom: 0.3s;
+    padding-bottom: 5px;
+    position: relative;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    color: indianred;
+    border-bottom: 2px solid indianred;
+    background-color: #a5a5a5;
 }
