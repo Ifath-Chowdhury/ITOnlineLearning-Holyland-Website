@@ -39,32 +39,34 @@ body {
 }
 
 .main-nav a {
-    font-size: 18px;
+    font-size: 1.5rem;
     color: azure;
     text-decoration: none;
     transition: color 0.3s ease;
     border-bottom: 0.3s;
-    padding: 0.5rem 1rem;
+    padding: 1.2rem 1rem;
     position: sticky;
-    padding: 10px 10px;
 }
 
 .main-nav a:hover {
     color: indianred;
-    border-bottom: 2px solid indianred;
+    border-bottom: 5px solid indianred;
     background-color: #a5a5a5;
 }
 
 /*Header styling*/
 
-.header {
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     padding: 3rem 1rem;
     background-color: #fff;
     margin-bottom: 2rem;
 }
 
-.header h1 {
+header h1 {
     font-size: 5rem;
     color: crimson;
     margin-bottom: 1rem;
@@ -75,6 +77,34 @@ body {
     font-size: 2rem;
 }
 
+button {
+    border: none;
+    font-size: 2.5rem;
+    transform: 0.2s;
+    background-color: 0.2s;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding: 3rem 1rem;
+    border: 3px solid transparent;
+    font-family: "Bebas Neue", sans-serif;
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: indianred;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button::after, button::after {
+    border-radius: 3px;
+}
+
 /*Main content styling*/
 
 .main-content {
@@ -83,7 +113,47 @@ body {
     padding: 0 1rem;
 }
 
+.main-content h2 {
+    font-size: 3.5rem;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
 #orangeparagraph {
     font-size: 2rem;
     color: #333;
+}
+
+.main-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 75%;
+}
+
+/*Footer styling*/
+
+footer {
+    background-color: rgba(50, 50, 60, 0.95);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.52);
+    width: 100%;
+    padding: 30px 0;
+    color: azure;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer-links {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: azure;
 }
