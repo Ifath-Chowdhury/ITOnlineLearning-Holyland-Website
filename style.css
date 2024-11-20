@@ -225,3 +225,61 @@ footer {
     color: crimson;
     font-size: 3rem;
 }
+
+/*Contact Us section styling*/
+
+.contact-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(165, 165, 165, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.contact-container h2 {
+    font-size: 2.5rem;
+    color: crimson;
+    border-bottom: 2px solid crimson;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:valid,
+textarea:valid,
+select:valid {
+    border-color: #28a745;
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border-color: #dc3545;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
