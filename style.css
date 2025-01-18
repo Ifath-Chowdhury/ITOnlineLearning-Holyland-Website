@@ -292,6 +292,9 @@ h2 {
     border-bottom: 3px solid crimson;
     display: inline-block;
     margin-bottom: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
 
 #gallery-container {
@@ -344,8 +347,55 @@ figcaption {
         font-size: 3vw;
     }
 
-    #gallery {
+    #gallery-images {
         grid-template-columns: 1fr;
         width: 90vw;
     }
+}
+
+/*Manga page styling*/
+
+#manga-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.manga {
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(165, 165, 165, 0.5);
+    padding: 15px;
+    max-width: 1000px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.manga-description {
+    text-align: right;
+    margin: 5px auto;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+
+.manga-button {
+    align-self: center;
+    margin: 5px auto;
+    margin-top: 20px;
+}
+
+.manga-button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.manga-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
 }
